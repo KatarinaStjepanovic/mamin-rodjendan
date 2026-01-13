@@ -1,0 +1,275 @@
+:root{
+    --light-pink : #E8A4C9;
+    --text-pink: #6F4D60;
+    --dark-pink: #414141;
+    --main-font: "Playfair Display";
+    --cursive-font: "Dancing Script";
+}
+
+body{
+    background-color: var(--light-pink);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.letterImage{
+    height: 100%;
+    width: 100%;
+}
+
+.hearts{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    height: 50px;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.circle{
+    height: 40%;
+    width: 85%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0);
+}
+
+.square{
+    height: fit-content;
+    width: 85%;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 23%;
+    transform: translateX(-50%);
+    color: var(--text-pink);
+    padding-bottom: 10%;
+}
+
+.happyBday{
+    font-size: 25px;
+    color: var(--text-pink);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    font-family: var(--main-font);
+}
+
+.bdayTitle{
+    font-size: 35px;
+    font-family: var(--cursive-font);
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--dark-pink);
+}
+
+.ballons{
+    position: relative;
+     left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}
+
+.date{
+    margin-left: 20%;
+    font-size: 20px;
+    color: var(--text-pink);
+    font-family: var(--main-font);
+    position: relative;
+    width: fit-content;
+    margin-top: 5%;
+}
+
+.date::after{
+    content: "";
+    position: absolute;
+    right: -50%;
+    width: 1px;
+    height: 110%;
+    top: 0;
+    background-color: var(--text-pink);
+}
+
+.volimoTe{
+    position: relative;
+    font-size: 25px;
+    left: 55%;
+    top: -35px;
+    color: var(--text-pink);
+    font-family: var(--cursive-font);
+}
+
+.grid{
+    display: grid;
+    width: 90%;
+    left: 90%;
+    transform: translateX(-90%);
+    position: relative;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 200px 200px;
+    height: 40%;
+    margin: 0;
+    font-family: var(--cursive-font);
+    font-size: 20px;
+    margin-top: 10%;
+    place-content: center;
+}
+
+.grid img{
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.grid div{
+    place-content: center;
+}
+
+.years{
+    margin-top: 10%;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    border-top: 1px  solid var(--text-pink);
+    border-bottom: 1px  solid var(--text-pink);
+    padding: 5px;
+   font-size: 25px;
+    font-family: var(--main-font);
+}
+
+.fortyThree{
+    padding-right: 8%;
+    margin-right: 2%;
+    border-right: 1px solid var(--text-pink);
+     margin-left: 8%;
+     position: relative;
+}
+
+.photosText{
+    font-family: var(--cursive-font);
+    color: var(--text-pink);
+    font-size: 20px;
+    margin-top: 5%;
+    position: relative;
+    left: 8%;
+}
+
+.pictures{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pictures img{
+    width: 45%;
+    max-height: 90%;
+    transition: all 0.5s ease-in-out;
+}
+
+.ukrstenicaBorder{
+    border: 1px solid var(--text-pink);
+    display: flex;
+    place-content: center;  
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);  
+    padding: 5%;
+    width: 70%;
+    margin-top: 10%;
+}
+
+.ukrstenica{
+    width: 60%;
+}
+
+.poklon{
+    position: relative;
+    top: -70px;
+    width:25%;
+}
+
+.slatkeRijeci{
+    width: 50%;
+    border-right: 1px solid var(--text-pink);
+    color: var(--text-pink);
+    font-family: var(--main-font);
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+.porukeGrid{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    height: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: right;
+    color: var(--text-pink);
+    font-family: var(--cursive-font);
+    font-size: 20px;
+
+}
+
+.ko{
+    font-family: var(--main-font);
+    border-bottom: 2px solid var(--text-pink);
+    margin-bottom: 10%;
+    width: 80%;
+    position: relative;
+    left: 20%;
+    height: 15%;
+}
+
+.rijeciImg{
+   width: 80%;
+}
+
+.pismo{
+    border: 10px solid var(--light-pink);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin-bottom: 150px;
+    margin-top: 10%;
+    padding:  40px 10px 5px 10px;
+    font-size: 20px;
+    font-family: var(--cursive-font);
+}
+
+.potpis{
+    position: relative;
+    text-align: right;
+
+
+}
+
+
+
+
+
+
+
+
+
+
