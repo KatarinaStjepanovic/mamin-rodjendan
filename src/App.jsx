@@ -3,7 +3,7 @@ import { createBrowserRouter } from 'react-router'
 import { RouterProvider } from 'react-router'
 
 import StartPage from './assets/StartPage'
-import MainPage from './MainPage'
+import MainPage from './assets/MainPage.jsx'
 
 const router = createBrowserRouter([
   {

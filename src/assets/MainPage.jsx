@@ -16,8 +16,8 @@ function MainPage() {
 
   const randomIndexes = (previous = []) => {
 
-    let rand1 = Math.ceil(Math.random() * 25);
-    let rand2 = Math.ceil(Math.random() * 25);
+    let rand1 = Math.ceil(Math.random() * 43);
+    let rand2 = Math.ceil(Math.random() * 43);
     if (
       rand1 != rand2 &&
       !previous.includes(rand1) &&
@@ -77,13 +77,13 @@ function MainPage() {
 
         <div className="slatkeRijeci">SLATKE RIJEČI TVOJIH NAJMILIJIH</div>
         <div className="porukeGrid">
-        <img src="/Tata.jpg" alt="tata" className="rijeciImg" />
-        <div className="tataText">
+        <img src="/Tata.jpg" alt="tata" className="rijeciImg" style={{marginTop: "10%"}} />
+        <div className="tataText" style={{marginTop: "10%"}}>
         <div className="ko">Dragan</div>
           "Simeuna dosadna si al nek ti je sretan rodjendan"</div>
-        <img src="/Mama/23.jpg" alt="miko" className="rijeciImg" />
+        <img src="/Miko.jpg" alt="miko" className="rijeciImg" style={{marginTop: "10%"}} />
         <div className="mikoText">
-        <div className="ko">Mihajlo</div>
+        <div className="ko"  style={{marginTop: "10%"}}>Mihajlo</div>
         "Biljoni srećan rodjendan"
         </div>
         </div>
